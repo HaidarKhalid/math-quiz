@@ -23,8 +23,6 @@ body {
 }
 
 .form-head {
-    display: flex;
-    justify-content: center;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
 }
@@ -40,14 +38,33 @@ body {
 
 .submit {
     width: 100%;
-    margin-top: 10px;
     height: 35px;
     background: linear-gradient(to left ,rgb(157, 255, 0), rgb(255, 230, 0));
     border: 1px solid black;
     transition: 0.15s;
     font-size: larger;
     font-weight: bold;
+    margin-top: 10px;
 }
 .submit:hover {
     border: 1px solid white;
+}
+.score-div {
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    color: black;
+    font-weight: bold;
+    font-size: large;
 }
